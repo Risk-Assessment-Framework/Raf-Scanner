@@ -1,0 +1,5 @@
+com\azhar\raf\TableGenerator.class
+META-INF\sisu\javax.inject.Named
+com\azhar\raf\ResultProvider.class
+com\azhar\raf\RafMojo.class
+com\azhar\raf\RuntimeExpResultProvider.class
