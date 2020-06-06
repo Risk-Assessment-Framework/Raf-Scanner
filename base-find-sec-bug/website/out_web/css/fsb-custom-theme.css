@@ -1,0 +1,89 @@
+/*!
+ * CSS rules specific to find-security-bugs
+ */
+.jumbotron {
+    border-bottom: 1px solid #e5e5e5;
+border-radius: 0.25rem !important;
+}
+h1, .navbar-brand { /** navbar-brand is the follow next to the navbar **/
+    font-family: "Squada One", "Courier New", Courier, monospace;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.jumbotron h1 {
+    font-size: 4em;
+}
+
+a.anchor{display: block; position: relative; top: -60px; visibility: hidden;}
+
+.book-preview {
+float: left !important;
+margin-right: 10px;}
+
+.feature-list .col-md-4 {
+padding:10px;
+}
+
+section.darker_section {
+color:#FFF;
+backgroud-color:#415C77;
+}
+
+section#features {
+padding-bottom: 40px;
+}
+
+
+#sidebar_lang.affix-top {
+    position: static;
+    margin-top:30px;
+    width:228px;
+  }
+
+#sidebar_lang.affix {
+position: fixed;
+top:70px;
+width:228px;
+}
+
+/*Code block style*/
+pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    word-break: break-all;
+    word-wrap: break-word;
+    color: #333333;
+    background-color: #f5f5f5;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+.btn {
+border-radius: 0.25rem !important;
+}
+
+
+blockquote {
+  position: relative;
+  padding:15px;
+  padding-left:20px;
+  background-color:#F8FADC;
+  box-shadow: 5px 5px #D2D3BC;
+  border-radius: 4px;
+}
+blockquote:before {
+  font-family: "Squada One", serif;
+  content: '\201C';
+  position: absolute;
+  top: 0em;
+  left: -0.2em;
+  color: #D2D3BC;
+  font-size: 5em;
+  z-index: 2;
+}

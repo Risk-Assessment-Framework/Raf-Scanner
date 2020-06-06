@@ -1,0 +1,28 @@
+#Eclipse
+.classpath
+.project
+test-output
+.settings
+
+#IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+
+#Neo4j
+*.db/
+
+#Gradle
+.gradle
+
+#Build directories
+bin/
+build/
+target/
+
+#Maven
+*.versionsBackup
+
+#Tests artifacts
+plugin/derived-config.txt
